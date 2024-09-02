@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ben-test-bugbasherd
+  annotations:
+    github.com/project-slug: 'spotify-portal-demo/ben-test-bugbasherd'
+spec:
+  type: website
+  lifecycle: production
+  owner: sharks
